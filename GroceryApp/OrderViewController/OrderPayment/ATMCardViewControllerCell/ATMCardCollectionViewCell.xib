@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ATMCardCollectionViewCell" id="gTV-IL-0wX" customClass="ATMCardCollectionViewCell" customModule="GroceryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Credit card" translatesAutoresizingMaskIntoConstraints="NO" id="YmN-dx-XiP">
+                        <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YmN-dx-XiP" secondAttribute="trailing" id="CJq-3V-FMY"/>
+                <constraint firstItem="YmN-dx-XiP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="LBg-iG-wT1"/>
+                <constraint firstItem="YmN-dx-XiP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dll-1K-MFh"/>
+                <constraint firstAttribute="bottom" secondItem="YmN-dx-XiP" secondAttribute="bottom" id="jlO-rv-C3y"/>
+            </constraints>
+            <connections>
+                <outlet property="atmCardImg" destination="YmN-dx-XiP" id="Rci-Aa-Ax7"/>
+            </connections>
+            <point key="canvasLocation" x="19.847328244274809" y="19.366197183098592"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Credit card" width="216" height="141"/>
+    </resources>
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodCategoriesCollectionViewCell" id="gTV-IL-0wX" customClass="FoodCategoriesCollectionViewCell" customModule="GroceryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="138" height="138"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fruits" translatesAutoresizingMaskIntoConstraints="NO" id="SMs-HX-0pZ">
+                        <rect key="frame" x="0.0" y="0.0" width="138" height="138"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="138" id="19S-Mx-vi0"/>
+                            <constraint firstAttribute="height" constant="138" id="k2r-Oi-Q6r"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SMs-HX-0pZ" secondAttribute="bottom" id="3hq-5f-tRP"/>
+                <constraint firstItem="SMs-HX-0pZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Azc-98-4mt"/>
+                <constraint firstItem="SMs-HX-0pZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IYr-1Q-M4R"/>
+                <constraint firstAttribute="trailing" secondItem="SMs-HX-0pZ" secondAttribute="trailing" id="aOa-de-0qF"/>
+            </constraints>
+            <connections>
+                <outlet property="foodImages" destination="SMs-HX-0pZ" id="1iD-kn-FvT"/>
+            </connections>
+            <point key="canvasLocation" x="-261.06870229007632" y="25.35211267605634"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fruits" width="139.33332824707031" height="139"/>
+    </resources>
+</document>

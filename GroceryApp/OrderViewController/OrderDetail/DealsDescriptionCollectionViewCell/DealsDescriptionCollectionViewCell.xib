@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DealsDescriptionCollectionViewCell" id="gTV-IL-0wX" customClass="DealsDescriptionCollectionViewCell" customModule="GroceryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADK-fO-Yma">
+                        <rect key="frame" x="5" y="7" width="95" height="22"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Mm-U3-M4N">
+                        <rect key="frame" x="5" y="32" width="95" height="1"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="95" id="XAo-83-3h3"/>
+                            <constraint firstAttribute="height" constant="1" id="yQn-cT-j8s"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2Mm-U3-M4N" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="4rp-bi-1bP"/>
+                <constraint firstItem="ADK-fO-Yma" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="5Ep-BX-gCc"/>
+                <constraint firstItem="ADK-fO-Yma" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="5Wb-9w-xwC"/>
+                <constraint firstAttribute="bottom" secondItem="2Mm-U3-M4N" secondAttribute="bottom" constant="3" id="7Lk-cL-Jl5"/>
+                <constraint firstAttribute="trailing" secondItem="2Mm-U3-M4N" secondAttribute="trailing" constant="5" id="Lab-Aw-G1t"/>
+                <constraint firstItem="2Mm-U3-M4N" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="qPe-4i-IaV"/>
+            </constraints>
+            <size key="customSize" width="123" height="36"/>
+            <connections>
+                <outlet property="descriptionLbl" destination="ADK-fO-Yma" id="uUk-Ys-AdO"/>
+            </connections>
+            <point key="canvasLocation" x="151.90839694656489" y="22.535211267605636"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="gTV-IL-0wX" customClass="HomeCollectionViewCell" customModule="GroceryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="263" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="263" height="152"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card" translatesAutoresizingMaskIntoConstraints="NO" id="apJ-WH-CGA">
+                        <rect key="frame" x="0.0" y="0.0" width="263" height="152"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="263" id="kT0-dF-iuF"/>
+                            <constraint firstAttribute="height" constant="152" id="m8U-CC-Q18"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recomended Recipe Today" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4Z-lq-FnP">
+                        <rect key="frame" x="20" y="93.666666666666671" width="103" height="38.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="apJ-WH-CGA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Aex-ul-sRj"/>
+                <constraint firstItem="apJ-WH-CGA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Bbf-9t-TQN"/>
+                <constraint firstAttribute="trailing" secondItem="f4Z-lq-FnP" secondAttribute="trailing" constant="140" id="FCm-lc-X4m"/>
+                <constraint firstAttribute="bottom" secondItem="f4Z-lq-FnP" secondAttribute="bottom" constant="20" id="Io3-4H-B28"/>
+                <constraint firstAttribute="bottom" secondItem="apJ-WH-CGA" secondAttribute="bottom" id="Thz-eq-ZSK"/>
+                <constraint firstAttribute="trailing" secondItem="apJ-WH-CGA" secondAttribute="trailing" id="Yym-m5-4u8"/>
+                <constraint firstItem="f4Z-lq-FnP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="hd2-aq-NEV"/>
+            </constraints>
+            <connections>
+                <outlet property="MenuCardImg" destination="apJ-WH-CGA" id="0ta-ni-Ua3"/>
+                <outlet property="menuLbl" destination="f4Z-lq-FnP" id="8e4-ca-A6y"/>
+            </connections>
+            <point key="canvasLocation" x="138.1679389312977" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="card" width="263" height="162"/>
+    </resources>
+</document>
