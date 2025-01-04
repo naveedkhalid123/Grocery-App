@@ -55,7 +55,7 @@ Fully interactive and optimized for performance across all iOS devices.
 Designed with a mobile-first approach, ensuring usability and responsiveness.
 
 🎨 Visuals
-For a detailed preview of the app's UI/UX, check out the visuals here: Grocery App Visuals.
+For a detailed preview of the app's UI/UX, check out the visuals here: https://drive.google.com/file/d/1___67MXQ0euD4Po25FoQyFTFHH_ZdToq/view
 
 👤 Author
 Developed by Muhammad Naveed Khalid
