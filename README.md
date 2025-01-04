@@ -10,4 +10,4 @@ Key Highlights:
 
 This project reflects my expertise in iOS development and my passion for creating clean, responsive, and engaging mobile app designs. Combining technical implementation with design precision, I aimed to ensure a seamless user experience.
 Please click on the given link for visuals:
-https://drive.google.com/file/d/1___67MXQ0euD4Po25FoQyFTFHH_ZdToq/view?usp=sharing
+https://bit.ly/4h3mKKi
