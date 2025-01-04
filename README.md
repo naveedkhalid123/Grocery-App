@@ -1,2 +1,13 @@
 # Grocery-App
-I have developed a clean and user-friendly UI/UX design for a Grocery App using Swift for iOS. The design focuses on delivering a seamless shopping experience with intuitive navigation and appealing visuals.
+Excited to showcase my latest iOS project! 🍎 🥦 🛍️
+
+I have designed and developed a fully interactive Grocery App using Swift, focusing on delivering an outstanding UI/UX experience for users. 📱
+
+Key Highlights:
+1. Fully responsive design for all iOS devices
+2. Smooth, interactive, and user-friendly interface
+3. Modern and intuitive layout to enhance usability
+
+This project reflects my expertise in iOS development and my passion for creating clean, responsive, and engaging mobile app designs. Combining technical implementation with design precision, I aimed to ensure a seamless user experience.
+Please click on the given link for visuals:
+https://drive.google.com/file/d/1___67MXQ0euD4Po25FoQyFTFHH_ZdToq/view?usp=sharing
