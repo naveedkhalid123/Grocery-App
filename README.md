@@ -55,7 +55,12 @@ Fully interactive and optimized for performance across all iOS devices.
 Designed with a mobile-first approach, ensuring usability and responsiveness.
 
 🎨 Visuals
-For a detailed preview of the app's UI/UX, check out the visuals here: https://drive.google.com/file/d/1___67MXQ0euD4Po25FoQyFTFHH_ZdToq/view
+[![Grocery App Home Screen](https://github.com/naveedkhalid123/Grocery-App/blob/f6623ee063549b7812a559821a3ec4caace97f02/grocery1.png)](https://github.com/naveedkhalid123/Grocery-App)
+
+[![Grocery App Product List](https://github.com/naveedkhalid123/Grocery-App/blob/f6623ee063549b7812a559821a3ec4caace97f02/grocery3.png)](https://github.com/naveedkhalid123/Grocery-App)
+
+[![Grocery App Checkout](https://github.com/naveedkhalid123/Grocery-App/blob/f6623ee063549b7812a559821a3ec4caace97f02/grocery4.png)](https://github.com/naveedkhalid123/Grocery-App)
+
 
 👤 Author
 Developed by Muhammad Naveed Khalid
