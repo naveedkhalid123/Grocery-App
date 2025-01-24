@@ -65,7 +65,7 @@ Designed with a mobile-first approach, ensuring usability and responsiveness.
 [![Grocery App Checkout](https://github.com/naveedkhalid123/Grocery-App/blob/f6623ee063549b7812a559821a3ec4caace97f02/grocery4.png)](https://github.com/naveedkhalid123/Grocery-App)
 
 
-👤 Author
+
 Developed by Muhammad Naveed Khalid
 
 
